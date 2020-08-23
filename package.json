@@ -1,0 +1,36 @@
+{
+  "name": "suuk",
+  "version": "1.0.0",
+  "description": "Online Store",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timnitye/Suuk.git"
+  },
+  "author": "Timnit Yemane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timnitye/Suuk/issues"
+  },
+  "homepage": "https://github.com/timnitye/Suuk#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "express-validator": "^5.3.1",
+    "graphql": "^15.3.0",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0",
+    "validator": "^13.1.1"
+  }
+}
